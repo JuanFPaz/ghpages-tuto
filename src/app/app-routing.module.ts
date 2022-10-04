@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {path:"", redirectTo:"/ghpages",pathMatch:"full"},
-  {path:"ghpages", component:AppComponent}
+  {path:"", redirectTo:"/ghpages-tuto",pathMatch:"full"},
+  {path:"ghpages-tuto", component:AppComponent}
 ];
 
 @NgModule({
